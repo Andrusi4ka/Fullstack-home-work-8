@@ -1,0 +1,141 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    .bl-items {
+        background-color: #eeeeee;
+        border: 1px solid #595959;
+        padding: 10px 20px;
+        overflow: hidden;
+        margin-bottom: 10px;
+
+
+        &>.left {
+            &::after {
+                content: '';
+                background-image: url('../image/arrow-left.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 160px;
+                height: 18px;
+                position: absolute;
+                top: 14px;
+                right: -161px;
+            }
+        }
+
+        &>.right {
+            &::before {
+                content: '';
+                background-image: url('../image/arrow-right.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 160px;
+                height: 18px;
+                position: absolute;
+                top: 14px;
+                left: -161px;
+            }
+        }
+
+        .item {
+            background-color: #cccccc;
+            border: 1px solid #595959;
+            width: 150px;
+            height: 50px;
+        }
+
+        .left {
+            float: left;
+            position: relative;
+        }
+
+        .right {
+            float: right;
+            position: relative;
+        }
+
+
+
+        &:nth-child(2) {
+            .right {
+                margin-left: 20px;
+            }
+        }
+
+        &:nth-child(3) {
+            .right {
+                margin-left: 20px;
+            }
+        }
+
+        &:nth-child(4) {
+            .right {
+                .right {
+                    .item {
+                        &:first-child {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+
+            &>.right {
+                &>.item {
+                    margin-right: 20px;
+                    height: 120px;
+                }
+            }
+        }
+
+        &:last-child {
+            .center {
+                float: none;
+                width: 320px;
+                margin: 0 auto;
+                position: relative;
+
+                .right {
+                    .item {
+                        &:first-child {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .left {
+                    margin-right: 20px;
+                    height: 120px;
+                }
+
+                &::after {
+                    content: '';
+                    background-image: url('../image/arrow-right.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 160px;
+                    height: 18px;
+                    position: absolute;
+                    top: 14px;
+                    right: -161px;
+                }
+
+
+
+                &::before {
+                    content: '';
+                    background-image: url('../image/arrow-left.png');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 160px;
+                    height: 18px;
+                    position: absolute;
+                    top: 14px;
+                    left: -161px;
+                }
+
+            }
+        }
+    }
+}

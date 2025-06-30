@@ -1,0 +1,95 @@
+h1 {
+  text-align: center;
+}
+
+main .bl-items {
+  background-color: #eeeeee;
+  border: 1px solid #595959;
+  padding: 10px 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+main .bl-items > .left::after {
+  content: "";
+  background-image: url("../image/arrow-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 18px;
+  position: absolute;
+  top: 14px;
+  right: -161px;
+}
+main .bl-items > .right::before {
+  content: "";
+  background-image: url("../image/arrow-right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 18px;
+  position: absolute;
+  top: 14px;
+  left: -161px;
+}
+main .bl-items .item {
+  background-color: #cccccc;
+  border: 1px solid #595959;
+  width: 150px;
+  height: 50px;
+}
+main .bl-items .left {
+  float: left;
+  position: relative;
+}
+main .bl-items .right {
+  float: right;
+  position: relative;
+}
+main .bl-items:nth-child(2) .right {
+  margin-left: 20px;
+}
+main .bl-items:nth-child(3) .right {
+  margin-left: 20px;
+}
+main .bl-items:nth-child(4) .right .right .item:first-child {
+  margin-bottom: 20px;
+}
+main .bl-items:nth-child(4) > .right > .item {
+  margin-right: 20px;
+  height: 120px;
+}
+main .bl-items:last-child .center {
+  float: none;
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+main .bl-items:last-child .center .right .item:first-child {
+  margin-bottom: 20px;
+}
+main .bl-items:last-child .center .left {
+  margin-right: 20px;
+  height: 120px;
+}
+main .bl-items:last-child .center::after {
+  content: "";
+  background-image: url("../image/arrow-right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 18px;
+  position: absolute;
+  top: 14px;
+  right: -161px;
+}
+main .bl-items:last-child .center::before {
+  content: "";
+  background-image: url("../image/arrow-left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 18px;
+  position: absolute;
+  top: 14px;
+  left: -161px;
+}/*# sourceMappingURL=style.css.map */
