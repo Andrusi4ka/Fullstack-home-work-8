@@ -58,6 +58,9 @@ main .bl-items:nth-child(4) > .right > .item {
   margin-right: 20px;
   height: 120px;
 }
+main .bl-items:nth-child(4) > .right::before {
+  top: 50px;
+}
 main .bl-items:last-child .center {
   float: none;
   width: 320px;
@@ -79,7 +82,7 @@ main .bl-items:last-child .center::after {
   width: 160px;
   height: 18px;
   position: absolute;
-  top: 14px;
+  top: 50px;
   right: -161px;
 }
 main .bl-items:last-child .center::before {
@@ -90,6 +93,6 @@ main .bl-items:last-child .center::before {
   width: 160px;
   height: 18px;
   position: absolute;
-  top: 14px;
+  top: 50px;
   left: -161px;
 }/*# sourceMappingURL=style.css.map */

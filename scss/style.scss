@@ -10,7 +10,6 @@ main {
         overflow: hidden;
         margin-bottom: 10px;
 
-
         &>.left {
             &::after {
                 content: '';
@@ -56,8 +55,6 @@ main {
             position: relative;
         }
 
-
-
         &:nth-child(2) {
             .right {
                 margin-left: 20px;
@@ -85,6 +82,10 @@ main {
                 &>.item {
                     margin-right: 20px;
                     height: 120px;
+                }
+
+                &::before {
+                    top: 50px;
                 }
             }
         }
@@ -117,11 +118,9 @@ main {
                     width: 160px;
                     height: 18px;
                     position: absolute;
-                    top: 14px;
+                    top: 50px;
                     right: -161px;
                 }
-
-
 
                 &::before {
                     content: '';
@@ -131,7 +130,7 @@ main {
                     width: 160px;
                     height: 18px;
                     position: absolute;
-                    top: 14px;
+                    top: 50px;
                     left: -161px;
                 }
 
