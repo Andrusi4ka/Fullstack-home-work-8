@@ -1,23 +1,23 @@
-# Домашнє завдання №8. Закріплюємо Float Layout
+# Float Layout
 
-**[Результат домашнього завдання](https://andrusi4ka.github.io/Fullstack-home-work-8/)**
+**[Resultat](https://andrusi4ka.github.io/Fullstack-home-work-8/)**
 
-Створено код у розмітці, який демонструє наступний результат на сторінці, використовуючи виключно властивості `float` та `margin`:
+Code has been created in the markup that demonstrates the following result on the page, using only the 'float' and 'margin' properties:
 
-- Один блок розміщено ліворуч, другий — праворуч.
+- One block is placed on the left, the other on the right.
 
-- Один блок ліворуч, кілька блоків — праворуч.
+- One block on the left, several blocks on the right.
 
-- Два блоки ліворуч, два блоки — праворуч.
+- Two blocks on the left, two blocks on the right.
 
-- Три блоки розміщено праворуч, два з них знаходяться один під одним.
+- Three blocks are placed on the right, with two of them stacked vertically.
 
-- Три блоки вирівняно по центру.
+- Three blocks are aligned in the center.
 
 ![image!](/image/1.jpg)
 
-**Важливо!**
+**Important!**
 
-Дозволяється використовувати лише `float` та `margin`.
+Only 'float' and 'margin' are allowed.
 
-Використання `display: inline-block`, `flexbox` і тд і тп - все заборонено
+The use of display: inline-block, flexbox, etc. is strictly prohibited.
