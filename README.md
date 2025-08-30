@@ -1,6 +1,6 @@
 # Float Layout
 
-**[Resultat](https://andrusi4ka.github.io/Fullstack-home-work-8/)**
+**[Resultat](https://andrusi4ka.github.io/Float-Layout/)**
 
 Code has been created in the markup that demonstrates the following result on the page, using only the 'float' and 'margin' properties:
 
